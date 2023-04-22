@@ -13,7 +13,7 @@ namespace Datos
     {
         private static readonly Conexion instance = new Conexion();
 
-        private string connectionString = "Data Source=EDWARDFRIAS;Initial Catalog=GestionInventario;Integrated Security=True";
+        private string connectionString = "Data Source=.;Initial Catalog=GestionInventario;Integrated Security=True";
 
         private Conexion() { }
 
